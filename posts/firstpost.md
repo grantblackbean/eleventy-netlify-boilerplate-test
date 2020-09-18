@@ -3,6 +3,7 @@ title: This is my first post
 main-title: "1"
 date: 2015-01-01T00:00:00.000Z
 author: John Appleseed
+slug: el-sluggo
 summary: Why contemplating our mortality can be a powerful catalyst for change
 tags:
   - tech
