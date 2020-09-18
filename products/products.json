@@ -1,6 +1,6 @@
 {
   "layout": "layouts/products.njk",
-  "permalink": "products/{{ title | slug }}/index.html",
+  "permalink": "products/{{ title }}/index.html",
   "tags": [
     "product"
   ]
