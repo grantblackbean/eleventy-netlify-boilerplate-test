@@ -1,0 +1,7 @@
+{
+  "layout": "layouts/products-posts.njk",
+  "permalink": "product/{{ title | slug }}/index.html",
+  "tags": [
+    "product"
+  ]
+}
