@@ -69,5 +69,5 @@ collections:
         searchFields: ["name", "github"]
         valueField: "name"
       - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["product"] }
+      - { label: "Tags", name: "tags", widget: "list", default: ["products"] }
       - { label: "Body", name: "body", widget: "markdown" }
