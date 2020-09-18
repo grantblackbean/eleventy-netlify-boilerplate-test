@@ -281,14 +281,14 @@ header{
 
 @media (max-width: 1440px){
 	#header-inner{
-		width: 1025px;
+		width: 975px;
 	}
 
 }
 
 @media (max-width: 1025px){
 	#header-inner{
-		width: 767px;
+		width: 717px;
 	}
 
 }
