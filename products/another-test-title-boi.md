@@ -4,6 +4,6 @@ date: 2020-09-18T21:17:17.239Z
 author: Jane Doe
 summary: YES THE SUMMAEY
 tags:
-  - product
+  - products
 ---
 BODY BOI
