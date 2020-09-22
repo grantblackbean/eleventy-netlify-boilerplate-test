@@ -5,5 +5,6 @@ author: Jane Doe
 summary: Test SUmmyary
 tags:
   - products
+description: TEST DESCRIPTION
 ---
 TEST BODY TESTS
