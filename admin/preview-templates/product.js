@@ -4,7 +4,7 @@ import format from "https://unpkg.com/date-fns@2.7.0/esm/format/index.js?module"
 const html = htm.bind(h);
 
 // Preview component for a Post
-const Product = createClass({
+const Post = createClass({
   render() {
     const entry = this.props.entry;
 
@@ -45,4 +45,4 @@ const Product = createClass({
   }
 });
 
-export default Product;
+export default Post;
