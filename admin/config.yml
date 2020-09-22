@@ -68,11 +68,11 @@ collections:
         collection: "authors"
         searchFields: ["name", "github"]
         valueField: "name"
-      - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["products"] }
+      - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Product Type", name: "product-type", widget: "text" }
-      - { label: "Common Uses", name: "common-uses", widget: "text" }
-      - { label: "Grades / Varieties", name: "grades-varieties", widget: "text" }
+      - { label: "Product Type", name: "product-type", widget: "string" }
+      - { label: "Common Uses", name: "common-uses", widget: "string" }
+      - { label: "Grades / Varieties", name: "grades-varieties", widget: "string" }
       - { label: "Specifications and Documents", name: "sds", widget: "file" }
       - { label: "Product Documents", name: "product-documents", widget: "file" }
