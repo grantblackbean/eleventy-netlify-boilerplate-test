@@ -11,7 +11,11 @@ section: products
     </small>
   </p>
 
-  {{ layoutContent | safe }}
+	{% if description %}
+				<p>
+					{{ description }}
+				</p>
+			{% endif %}
 
   {% if tags %}
     <p>
