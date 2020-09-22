@@ -71,4 +71,8 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["products"] }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Product Type", name: "product-type", widget: "text" }
+      - { label: "Common Uses", name: "common-uses", widget: "text" }
+      - { label: "Grades / Varieties", name: "grades-varieties", widget: "text" }
+      - { label: "Specifications and Documents", name: "sds", widget: "file" }
+      - { label: "Product Documents", name: "product-documents", widget: "file" }
