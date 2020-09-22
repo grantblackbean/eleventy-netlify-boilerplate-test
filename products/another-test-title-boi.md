@@ -5,5 +5,6 @@ author: Jane Doe
 summary: YES THE SUMMAEY
 tags:
   - products
+description: TEST DESCRIPTION
 ---
 BODY BOI
