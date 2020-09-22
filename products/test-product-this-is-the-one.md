@@ -5,5 +5,6 @@ author: Jane Doe
 summary: TEST SUMMAEY
 tags:
   - products
+description: TEST DESCRIPTION
 ---
 TEST
