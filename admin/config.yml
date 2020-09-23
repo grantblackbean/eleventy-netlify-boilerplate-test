@@ -76,9 +76,5 @@ collections:
       - { label: "Product Type", name: "product_type", widget: "string" }
       - { label: "Common Uses", name: "common_uses", widget: "string" }
       - { label: "Grades / Varieties", name: "grades_varieties", widget: "string" }
-      - label: "Specifications and Documents"
-        name: "sds"
-        widget: "list"
-        summary: '{{fields.sdsfile}}'
-        field: {label: File, name: sdsfile, widget: file}
+      - { label: "Specifications and Documents", name: "sds", widget: "file" }
       - { label: "Product Documents", name: "product_documents", widget: "file" }
