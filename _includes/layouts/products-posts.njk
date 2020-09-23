@@ -3,6 +3,12 @@ layout: layouts/base.njk
 section: products
 ---
 
+  	{% if internal_image %}
+    
+				<img src="{{ internal_image }}" >
+
+			{% endif %}
+
 <article>
   <h1>{{ title }}</h1>
   <p>
@@ -10,6 +16,12 @@ section: products
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
     </small>
   </p>
+
+  	{% if summary %}
+				<p>
+					{{ summary }}
+				</p>
+			{% endif %}
 
 	{% if description %}
 				<p>
