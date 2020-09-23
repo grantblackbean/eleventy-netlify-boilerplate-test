@@ -80,6 +80,6 @@ collections:
       - label: "Specifications and Documents"
         name: "sds"
         widget: "list"
-        summary: '{{fields.file}}'
+        summary: '{{fields.sdsfile}}'
         field: {label: File, name: sdsfile, widget: file}
       - { label: "Product Documents", name: "product_documents", widget: "file" }
