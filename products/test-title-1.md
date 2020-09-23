@@ -3,7 +3,7 @@ title: Test PRODUCT Title 1
 date: 2020-09-22T21:50:27.419Z
 author: Grant Hendricks
 tags:
-  - product
+  - products
 summary: Test Summary 1
 description: Test DESCRIPTOIN 1
 product-type: TEST RPODUCT TYPE
