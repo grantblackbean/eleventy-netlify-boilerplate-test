@@ -1,7 +1,7 @@
 ---
 title: Test PRODUCT Title 1
 date: 2020-09-22T21:50:27.419Z
-author: Dana Hare
+author: Grant Hendricks
 tags:
   - products
 summary: Test Summary 1
