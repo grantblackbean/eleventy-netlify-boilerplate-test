@@ -69,10 +69,12 @@ collections:
         searchFields: ["name", "companywebsite"]
         valueField: "name"
       - { label: "Tags", name: "tags", widget: "list", default: ["products"] }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Internal Image", name: "internal_image", widget: "image" }
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Product Type", name: "product-type", widget: "string" }
-      - { label: "Common Uses", name: "common-uses", widget: "string" }
-      - { label: "Grades / Varieties", name: "grades-varieties", widget: "string" }
+      - { label: "Product Type", name: "product_type", widget: "string" }
+      - { label: "Common Uses", name: "common_uses", widget: "string" }
+      - { label: "Grades / Varieties", name: "grades_varieties", widget: "string" }
       - { label: "Specifications and Documents", name: "sds", widget: "file" }
-      - { label: "Product Documents", name: "product-documents", widget: "file" }
+      - { label: "Product Documents", name: "product_documents", widget: "file" }
