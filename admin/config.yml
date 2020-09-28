@@ -36,22 +36,22 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Permalink", name: "permalink", widget: "string" }
-        - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-          name: "eleventyNavigation"
-          widget: "object"
-          fields:
-            - { label: "Key", name: "key", widget: "string" }
-            - { label: "Order", name: "order", widget: "number", default: 0 }
-            - { label: "Body", name: "body", widget: "markdown" }
-              - label: 'Page Layout'
-                name: 'page_layout'
-                widget: 'list'
-                types:
-                  - label: 'Body Section'
-                    name: 'body_section'
-                    widget: 'object'
-                    fields:
-                      - { label: 'Body', name: 'body_updated', widget: 'string' }
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: 'Page Layout'
+            name: 'page_layout'
+            widget: 'list'
+            types:
+           - label: 'Body Section'
+           name: 'body_section'
+           widget: 'object'
+           fields:
+           - { label: 'Body', name: 'body_updated', widget: 'string' }
     # Authors
   - name: "authors"
     label: "Author"
