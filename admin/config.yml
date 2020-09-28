@@ -51,7 +51,7 @@ collections:
            name: 'body_section'
            widget: 'object'
            fields:
-             - { label: 'Body', name: 'body_updated', widget: 'string' }
+             - { label: 'Body', name: 'body_updated', widget: 'markdown' }
     # Authors
   - name: "authors"
     label: "Author"
