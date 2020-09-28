@@ -12,7 +12,7 @@ const Page = createClass({
         <h1>${entry.getIn(["data", "title"], null)}</h1>
 
         ${this.props.widgetFor("body")}
-        <p>${entry.getIn(["data", "body_updated"], null)}</p>
+        <p>${entry.getIn(["data", "body_section"], null)}</p>
       </main>
     `;
   }
