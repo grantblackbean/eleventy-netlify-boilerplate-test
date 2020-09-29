@@ -3,17 +3,20 @@ import htm from "https://unpkg.com/htm?module";
 const html = htm.bind(h);
 
 // Preview component for a Page
-const Page = createClass({
-  render() {
-    const entry = this.props.entry;
+const Page = ({ entry, widgetFor, getAsset }) => {
+  const data = entry.get('data').toJS();
+  const { body_updated, title } = data;
 
-    return html`
-      <main>
-        <h1>${entry.getIn(["data", "title"], null)}</h1>
-        <p>${entry.getIn(["label", "page_layout"], null)}</p>
-      </main>
-    `;
-  }
-});
+  return <ProductPageTemplate
+    title={title}
+    body_updated={body_updated}
+    description={description}
+    intro={intro.blurbs}
+    main={main}
+    fullImage={full_image}
+    testimonials={testimonials}
+    pricing={pricing}
+  />;
+}
 
 export default Page;
