@@ -10,7 +10,7 @@ const Page = createClass({
     return html`
       <main>
         <h1>${entry.getIn(["data", "title"], null)}</h1>
-        ${entry.getIn(["data", "body_updated"], null)}
+        <p>${entry.getIn(["data", "page_layout"], null)}</p>
       </main>
     `;
   }
