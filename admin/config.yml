@@ -42,23 +42,8 @@ collections:
         fields:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
-      - label: "Page Layout"
-        name: "page_layout"
-        widget: "list"
-        types:
-         - label: "Body Section"
-           name: "body_section"
-           widget: "object"
-           fields:
-             - { label: "Body Updated", name: "body_updated", widget: "string" }
-         - label: "Left Align"
-           name: "left_align"
-           widget: "object"
-           fields:
-             - { label: "Left Align Image", name: "left_align_image", widget: "image" }
-             - { label: "Left Align Title", name: "left_align_title", widget: "string" }
-             - { label: "Left Align Body", name: "left_align_body", widget: "markdown" }
-             - { label: "Left Align Link", name: "left_align_link", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["products"] }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
     # Authors
   - name: "authors"
     label: "Author"
