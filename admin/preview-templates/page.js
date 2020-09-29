@@ -10,7 +10,8 @@ const Page = createClass({
     return html`
       <main>
         <h1>${entry.getIn(["data", "title"], null)}</h1>
-        ${entry.getIn(["data", "page_layout"], null)}
+        
+        <div>{field.get("label", field.get("page_layout"))}</div>
       </main>
     `;
   }
