@@ -17,5 +17,3 @@ const Page = createClass({
 });
 
 export default Page;
-
-
