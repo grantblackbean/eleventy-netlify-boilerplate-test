@@ -50,7 +50,8 @@ collections:
            name: "body_section"
            widget: "object"
            fields:
-             - { label: "Body Updated", name: "body_updated", widget: "string" }
+             - { label: 'String', name: 'string', widget: 'string' }
+             - { label: 'Text', name: 'text', widget: 'text' }
     # Authors
   - name: "authors"
     label: "Author"
