@@ -42,16 +42,15 @@ collections:
         fields:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: 'Page Layout'
-        name: 'page_layout'
-        widget: 'list'
+      - label: "Page Layout"
+        name: "page_layout"
+        widget: "list"
         types:
-         - label: 'Body Section'
-           name: 'body_section'
-           widget: 'object'
+         - label: "Body Section"
+           name: "body_section"
+           widget: "object"
            fields:
-             - { label: 'Body', name: 'body_updated', widget: 'markdown' }
+             - { label: "Body Updated", name: "body_updated", widget: "markdown" }
     # Authors
   - name: "authors"
     label: "Author"

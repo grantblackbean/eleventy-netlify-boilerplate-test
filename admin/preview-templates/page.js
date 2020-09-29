@@ -11,7 +11,6 @@ const Page = createClass({
       <main>
         <h1>${entry.getIn(["data", "title"], null)}</h1>
         ${this.props.widgetFor("body")}
-        ${this.props.widgetFor("page_layout")}
       </main>
     `;
   }
