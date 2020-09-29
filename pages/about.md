@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 page_layout:
   - type: body_section
-    body_updated: This is the best test we can come up with
+    body_updated: BEST BODY NA
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
