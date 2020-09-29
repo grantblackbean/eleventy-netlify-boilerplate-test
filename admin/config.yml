@@ -45,7 +45,7 @@ collections:
       - label: "Page Layout"
         name: "page_layout"
         widget: "list"
-        widgets:
+        types:
          - label: "Body Section"
            name: "body_section"
            widget: "object"
