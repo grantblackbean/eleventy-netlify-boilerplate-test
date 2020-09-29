@@ -9,13 +9,7 @@ const Page = ({ entry, widgetFor, getAsset }) => {
 
   return <ProductPageTemplate
     title={title}
-    body_updated={body_updated}
-    description={description}
-    intro={intro.blurbs}
-    main={main}
-    fullImage={full_image}
-    testimonials={testimonials}
-    pricing={pricing}
+    bodyUpdated={body_updated}
   />;
 }
 
