@@ -57,7 +57,7 @@ collections:
            fields:
              - { label: "Left Align Image", name: "left_align_image", widget: "image" }
              - { label: "Left Align Title", name: "left_align_title", widget: "string" }
-             - { label: "Left Align Body", name: "left_align_body", widget: "string" }
+             - { label: "Left Align Body", name: "left_align_body", widget: "markdown" }
              - { label: "Left Align Link", name: "left_align_link", widget: "string" }
     # Authors
   - name: "authors"
