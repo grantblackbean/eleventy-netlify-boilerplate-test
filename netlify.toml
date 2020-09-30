@@ -4,6 +4,7 @@
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
+
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
