@@ -112,4 +112,3 @@ collections:
          - { label: "Favicon", name: "site_favicon", widget: "image" }
          - { label: "noindex", name: "site_noindex", widget: "boolean", default: false  }
          - { label: "Google Analytics", name: "site_analytics", widget: "string", required: false  }
-         - { label: "Primary Color", name: "site_primary_color", widget: "color", picker: "chrome"}
