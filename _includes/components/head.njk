@@ -10,6 +10,13 @@
   <meta name="description" content="{{ settings.site_tagline }}">
   <meta property="og:description" content="{{ settings.site_tagline }}">
   <meta name="twitter:description" content="{{ settings.site_tagline }}">
+
+{% if settings.site_noindex.false %}
+  <meta name="robots" content="index, follow">
+{% else %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
+
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/inline.css" %}
