@@ -11,11 +11,11 @@
   <meta property="og:description" content="{{ settings.site_tagline }}">
   <meta name="twitter:description" content="{{ settings.site_tagline }}">
 
-{% if settings.site_noindex.false %}
+{% if settings.site_noindex %}
   <meta name="robots" content="index, follow">
 {% endif %}
 
-{% else settings.site_noindex.true %}
+{% if settings.site_noindex %}
   <meta name="robots" content="noindex, nofollow">
 {% endif %}
 
