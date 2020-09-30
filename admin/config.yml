@@ -110,5 +110,5 @@ collections:
          - { label: "Tagline", name: "site_tagline", widget: "string" }
          - { label: "Global Logo", name: "site_logo", widget: "image" }
          - { label: "Favicon", name: "site_favicon", widget: "image" }
-         - { label: "noindex", name: "site_noindex", widget: "boolean", default: "false"  }
-         - { label: "Google Analytics", name: "site_analytics", widget: "string", required: "false"  }
+         - { label: "noindex", name: "site_noindex", widget: "boolean", default: false  }
+         - { label: "Google Analytics", name: "site_analytics", widget: "string", required: false  }
