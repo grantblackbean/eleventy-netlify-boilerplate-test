@@ -5,22 +5,7 @@
 
 	<body>
 
-		<header>
-		<div id="header-inner">
-			
-				<div class="header-left">
-				<a id="site-title" href="{{ '/' | url }}">
-				<img alt="Main Logo" src="/static/img/clearsolv-icon.png" class="header-logo">
-				</a>
-				</div>
-			
-			<div class="header-right">
-			{% include "components/nav.njk" %}
-			</div>
-
-
-			</div>
-		</header>
+		{% include "components/header.njk" %}
 
 		<main>
 		
