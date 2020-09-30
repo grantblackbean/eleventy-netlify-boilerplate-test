@@ -4,11 +4,6 @@
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
-  
-  [plugins.inputs]
-  buildDir = "public"
-  prettyURLs = false
-
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
