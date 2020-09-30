@@ -98,6 +98,8 @@ collections:
   - name: "settings"
     label: "Settings"
     delete: false # Prevent users from deleting documents in this collection
+    editor:
+     preview: false
     files:
      - name: "general"
        label: "Global Settings"
