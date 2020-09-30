@@ -3,10 +3,10 @@
   <link rel="dns-prefetch" href="https://identity.netlify.com">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or renderData.title or metadata.title }}</title>
-  <link rel="icon" href="{{ site_favicon }}" sizes="32x32">
-  <link rel="icon" href="{{ site_favicon }}" sizes="192x192">
-  <link rel="apple-touch-icon" href="{{ site_favicon }}">
-  <meta name="msapplication-TileImage" content="{{ site_favicon }}">
+  <link rel="icon" href="{{ settings.site_favicon }}" sizes="32x32">
+  <link rel="icon" href="{{ settings.site_favicon }}" sizes="192x192">
+  <link rel="apple-touch-icon" href="{{ settings.site_favicon }}">
+  <meta name="msapplication-TileImage" content="{{ settings.site_favicon }}">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/inline.css" %}
