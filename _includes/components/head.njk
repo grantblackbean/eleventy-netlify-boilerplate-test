@@ -13,7 +13,9 @@
 
 {% if settings.site_noindex.false %}
   <meta name="robots" content="index, follow">
-{% else %}
+{% endif %}
+
+{% else settings.site_noindex.true %}
   <meta name="robots" content="noindex, nofollow">
 {% endif %}
 
