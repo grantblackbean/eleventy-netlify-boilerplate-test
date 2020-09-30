@@ -98,13 +98,11 @@ collections:
    - name: "settings"
     label: "Settings"
     delete: false # Prevent users from deleting documents in this collection
-    editor:
-      preview: false
     files:
       - name: "general"
         label: "Global Settings"
         file: "_data/settings.json"
-        description: "General Site Settings"
+        description: "Global Site Settings"
         fields:
           - { label: "Global Title", name: "site_title", widget: "string" }
           - { label: "Tagline", name: "site_tagline", widget: "string" }
