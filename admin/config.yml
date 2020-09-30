@@ -95,19 +95,19 @@ collections:
       - { label: "Specifications and Documents", name: "sds", widget: "file" }
       - { label: "Product Documents", name: "product_documents", widget: "file" }
       # Site Settings
-   - name: 'settings'
-    label: 'Settings'
+   - name: "settings"
+    label: "Settings"
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
     files:
-      - name: 'general'
-        label: 'Global Settings'
-        file: '_data/settings.json'
-        description: 'General Site Settings'
+      - name: "general"
+        label: "Global Settings"
+        file: "_data/settings.json"
+        description: "General Site Settings"
         fields:
-          - { label: 'Global Title', name: 'site_title', widget: 'string' }
-          - { label: 'Tagline', name: 'site_tagline', widget: 'string' }
-          - { label: 'Global Logo', name: 'site_logo', widget: 'image' }
-          - { label: 'Favicon', name: 'site_favicon', widget: 'image' }
-          - { label: 'noindex', name: 'site_noindex', widget: 'boolean', default: false  }
+          - { label: "Global Title", name: "site_title", widget: "string" }
+          - { label: "Tagline", name: "site_tagline", widget: "string" }
+          - { label: "Global Logo", name: "site_logo", widget: "image" }
+          - { label: "Favicon", name: "site_favicon", widget: "image" }
+          - { label: "noindex", name: "site_noindex", widget: "boolean", default: "false"  }
