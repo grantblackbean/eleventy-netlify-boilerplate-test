@@ -1,8 +1,8 @@
 {
   "site_noindex": true,
   "site_favicon": "/static/img/blackbean-logo.png",
-  "site_title": "Test Global Title",
-  "site_tagline": "Test Tagline",
+  "site_title": "Clearsolv",
+  "site_tagline": "ClearSolv is a North American distributor of high-quality solvents and solutions. We are a full-service supplier of products for use in the botanical extraction, beverage, and manufacturing sectors.",
   "site_logo": "/static/img/clearsolv-icon.png",
   "site_analytics": ""
 }
