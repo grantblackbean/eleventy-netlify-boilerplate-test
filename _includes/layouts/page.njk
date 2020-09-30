@@ -6,5 +6,7 @@ section: page
 
 {{ layoutContent | safe }}
 
-{{ page_layout.body_updated }}
+{% asyncAll item in items %}
+  <li>{{ page_layout | lookup }}</li>
+{% endall %}
 
