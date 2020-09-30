@@ -1,0 +1,8 @@
+{
+  "site_noindex": false,
+  "site_favicon": "/static/img/blackbean-logo.png",
+  "site_title": "Test Global Title",
+  "site_tagline": "Test Tagline",
+  "site_logo": "/static/img/blackbean-logo.png",
+  "site_analytics": "test"
+}
