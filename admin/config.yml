@@ -96,9 +96,9 @@ collections:
       - { label: "Product Documents", name: "product_documents", widget: "file" }
       # Site Settings
    - name: "settings"
-    label: "Settings"
-    delete: false # Prevent users from deleting documents in this collection
-    files:
+     label: "Settings"
+     delete: false # Prevent users from deleting documents in this collection
+     files:
       - name: "general"
         label: "Global Settings"
         file: "_data/settings.json"
