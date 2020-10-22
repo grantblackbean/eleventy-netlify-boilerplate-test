@@ -6,6 +6,16 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
+body2: |-
+  **ZOP ZOP ZOP**
+
+  # Doot
+
+  ## Doot Doot
+
+  > Doooot
+
+  *ZOOP ZOOP*
 ---
 This is a TEMPLATE for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com). ESDJLGFLSDG
 
